@@ -1,0 +1,14 @@
+.btn {
+    background-color: aquamarine;
+    font-size: 22px;
+}
+
+ .btn:hover {
+    background-color: gold;
+}
+
+
+a:visited {
+    color: orangered;
+}
+
