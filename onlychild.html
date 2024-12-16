@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Only child</title>
+    <style>
+        .container p {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid gray;
+        }
+
+        .container p:only-child {
+            background-color: lightgoldenrodyellow;
+            text-align: center;
+            font-weight: bold;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <p>This is the only child</p>
+    </div>
+
+    <div class="container">
+        <p>First child</p>
+        <p>Second child</p>
+    </div>
+</body>
+</html>
