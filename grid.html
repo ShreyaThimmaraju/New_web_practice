@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flex Wrap</title>
+    <style>
+        #container {
+            margin: 10px;
+            padding: 5px;
+            background-color: rgb(204, 64, 8);
+            height: 500px;
+            width: 800px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+        }
+
+        .box {
+            border: 2px solid black;
+            height: 200px;
+            width: 200px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        #box1 {
+            background-color: rgb(202, 8, 8);
+        }
+
+        #box2 {
+            background-color: rgb(65, 192, 6);
+        }
+
+
+        
+        #box3 {
+            background-color: rgb(45, 16, 209);
+        }
+
+        
+        #box4 {
+            background-color: rgb(255, 255, 0);
+        }
+
+
+        </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1" class="box">BOX 1</div>
+        <div id="box2" class="box">BOX 2</div>
+        <div id="box3" class="box">BOX 3</div>
+        <div id="box4" class="box">BOX 4</div>
+    </div>
+</body>
+</html>

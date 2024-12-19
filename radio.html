@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>Radio Button</title>
+    <style>
+        label {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: lightgray;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+     input[type="checkbox"]:checked + label {
+        background-color: lightgreen;
+        color: white;
+     }
+        </style>
+</head>
+<body>
+<input type="checkbox" id="checkbox">
+<label for="checkbox">Check me!</label>
+</body>
+</html>

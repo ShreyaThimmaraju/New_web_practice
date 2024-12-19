@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 2</title>
+    <style>
+        #nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #10375C;
+        }
+
+        #logo h1 {
+            margin: 0;
+            font-size: 30px;
+            color: #F4F6FF;
+        }
+
+        #links {
+            display: flex;
+        }
+
+        #links a {
+            color: #F4F6FF;
+            font-size: 16px;
+            padding: 8px 15px;
+            text-decoration: none;
+        }
+
+        #links a:hover {
+            color: #F3C623;
+        }
+
+        h2 {
+            color: #10375C;
+            margin-bottom: 20px;
+            font-size: 28px;
+            padding-bottom: 10px;
+        }
+
+        #about p {
+            color: #10375C;
+            font-size: 16px;
+        }
+
+        .review {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .review-img img { 
+            width: 80px;
+            height: 80px;
+            border-radius: 50px;
+            border: 3px solid #F3C623;
+                }
+
+            .review-text p {
+                color: #10375C;
+                margin-bottom: 10px;
+            }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <!--navigation bar-->
+        <div id="nav">
+            <div id="logo">
+                <h1>KodNest</h1>
+            </div>
+            <div id="links">
+                <a href="#">Java</a>
+                <a href="#">HTML</a>
+                <a href="#">SQL</a>
+                <a href="#">Python</a>
+            </div>
+        </div>
+        
+
+        <!--content-->
+        <div id="content">
+            <div id="about">
+                <h2>About Us</h2>
+                <p>
+                    <strong>KodNest</strong> started small, not in a big fancy place or 
+                    with lots of stuff. It all began with a fream about helping students reach their dreams. webbelieve that anyone and everyone can empowering our students to achieve their 
+                    goals and pursue their dreams. we provide them with the resource and support they need to succeed in the tech industry.
+                </p>
+            </div>
+
+            <div id="reviews">
+                <h2>Reviews</h2>
+                <div class="review-img">
+                    <img src="sasken.png" alt="Reviewer1"> 
+                </div>
+                <div class="review-text">
+                    <p>Lorem ipsum dolor sit amet 
+                        consectetur adipiscing <elit class="velit">hostrum hist sunt.</elit>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

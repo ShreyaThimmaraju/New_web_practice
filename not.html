@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Not</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+            color: black;
+        }
+
+        p:not(.highlight) {
+            background-color: lightpink;
+            color: white;
+        }
+
+        </style>
+</head>
+<body>
+    <p>This will be styled by  :not()</p>
+    <p class="highlight">This is a highlighted paragraph</p>
+    <p>This will also be satyled by :not</p>
+</body>
+</html>
