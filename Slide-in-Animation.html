@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Slide-In-Animation</title>
+    <style>
+    @keyframes shreya {
+        0% {
+            background-image: url(pic1.jpg);
+            background-color: red;
+            border: 2px dotted black;
+        }
+
+        25% {
+            background-image: url(pic2.jpg);
+            background-color: blue;
+            border: 2px dotted black;
+        }
+
+        50% {
+            background-image: url(pic3.jpg);
+            background-color: green;
+            border: 2px dotted black;
+        }
+
+        75% {
+            background-image: url(pic4.jpg);
+            background-color: yellow;
+            border: 2px dotted black;
+        }
+
+        100% {
+            background-image: url(pic5.jpg);
+            background-color: violet;
+            border: 2px dotted black;
+        }
+    }
+
+
+    .slide-in {
+        animation-name: shreya;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        width: 1500px;
+        height: 800px;
+    }
+    </style>
+</head>
+<body>
+    <div class="slide-in">Slide In Effect!</div>
+    <audio src="Sample1.mp3" controls>
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>

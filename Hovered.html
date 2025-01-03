@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hovered Over</title>
+    <style>
+        @keyframes shreya {
+            0% {
+                background-color: blue;
+                color: white;
+            }
+
+            100% {
+                background-color: red;
+                color: white;
+            }
+        }
+
+        div {
+            width: 200px;
+            height: 100px;
+            border: 6px groove black;
+            border-radius: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+        .color-change:hover {
+            animation-name: shreya;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="color-change">Hover Over Me!</div>
+</body>
+</html>

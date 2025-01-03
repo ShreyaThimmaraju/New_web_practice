@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Basic Fade-In Animation</title>
+    <style>
+      @keyframes fadeIn {
+        0% {
+            background-color: green;
+        }
+
+        100% {
+            background-color: blue;
+        }
+      }
+
+
+      .fade-in {
+        animation-name: fadeIn;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+      }
+      
+    </style>
+</head>
+<body>
+    <div class="fade-in">Hello</div>
+</body>
+</html>

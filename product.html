@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto;
+            gap: 20px;
+            padding: 20px;
+            background-color: lightblue;
+            height: 100vh;
+        }
+
+        .product {
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="product">
+            <h2>Product 1</h2>
+            <p>Price: $20</p>
+        </div>
+        <div class="product">
+            <h2>Product 2</h2>
+            <p>Price: $30</p>
+        </div>
+        
+        <div class="product">
+            <h2>Product 3</h2>
+            <p>Price: $40</p>
+        </div>
+
+        <div class="product">
+            <h2>Product 4</h2>
+            <p>Price: $50</p>
+        </div>
+    </div>
+</body>
+</html>

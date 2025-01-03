@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login-Form</title>
+<style>
+    body {
+        margin: 0px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: orange;
+        font-weight: bold;
+        font-family: cursive;
+    }
+
+    .outer {
+        background-color: white;
+        border-radius: 10px;
+        padding: 30px;
+        text-align: center;
+        width: 500px;
+        box-shadow: 2px 2px 5px blue;
+    }
+
+
+    .form-group input {
+        border: 2px solid;
+        border-radius: 6px;
+        width: 90%;
+        padding: 15px;
+        box-sizing: border-box;
+        margin: 9px;
+    }
+
+
+    .form-container a {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        margin: 9px;
+    }
+
+    .form-container {
+        text-align: left;
+        position: relative;
+    }
+
+
+    .form-group  button {
+        width: 90%;
+        background-color: orangered;
+        padding: 9px;
+        border-radius: 9px;
+        border: none;
+        color: white;
+        font-style: bold;
+        font-family: cursive;
+        margin: 4px;
+    }
+
+    
+    .form-group input[type='email']:focus+label {
+        position: absolute;
+        margin-top: -67px;
+        margin-left: 15px;
+        background-color: white;
+    }
+
+
+
+    .form-group input[type='password']:focus+label {
+        position: absolute;
+        margin-top: -67px;
+        margin-bottom: 15px;
+        background-color: white;
+    }
+
+    .form-group input[type='password']:not(:focus) + label,
+   .form-group input[type='email']:not(:focus) + label {
+        display: none;
+
+    }
+
+    .outer img {
+        width: 150px;
+    }
+</style>
+</head>
+<body>
+    <div class="outer">
+        <img src="sample1.jpg">
+            <form class="form-container">
+                <div class="form-group"> 
+                    <input type="email" required placeholder="Enter Email">
+                    <label>Email</label>
+                </div>
+
+                <div class="form-group"> 
+                    <input type="password" required placeholder="Enter Password">
+                    <label>Password</label>
+                
+
+
+                <div class="form-group"> 
+                 <a href="xyz">Forget Password?</a> 
+                </div>
+
+
+          
+                <div class="form-group"> 
+                    <button type="submit">Login</button>
+                   </div>
+                </div>
+            </form>
+</div>
+</body>
+</html>
