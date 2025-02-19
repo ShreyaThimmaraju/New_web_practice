@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Const</title>
+</head>
+<body>
+    <!--1..JS is Dynamically Types Language-->
+    <!--2..In JS While declaring variables  :var/let/const either of the keyword we should use.-->
+
+   
+    <script>
+         const a=10;
+       console.log("Value of a Before reassignment:",a);  //10
+
+    //   // REASSIGNMENT Not Allowed:
+    //    a=200;
+    //    console.log("Value of a after reassignment:",a); //200
+       
+       {
+        const b=500;
+        console.log("Accessing b Inside block",b);
+       }
+    //     console.log("Accesing b Outside block",b);
+    //    {
+    //     console.log("Accessing b Inside New block",b);
+    //    } 
+    </script>
+</body>
+</html>
+
+
+
+<!--
+1.  The Variables Which are Declared using const 
+     cannot  be accessed outside the block.
+
+2. The variables which are declared using const 
+   cannot be  reassigned to new value-->
