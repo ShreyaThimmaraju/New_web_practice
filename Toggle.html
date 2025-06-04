@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+        <div id="colorBox" style="width: 100px; height: 100px; background-color: red;"></div>
+            <button id="toggleColorButton">Toggle Color</button>
+
+            <script>
+                const colorBox = document.getElementById('colorBox');
+                const toggleColorButton = document.getElementById('toggleColorButton');
+
+                toggleColorButton.addEventListener('click', () => {
+                 const currentColor = colorBox.style.backgroundColor;
+                 if (currentColor === 'red') {
+                    colorBox.style.backgroundColor = 'blue';
+                 }   else {
+                    colorBox.style.backgroundColor = 'red';
+                 } 
+                });
+            </script>
+</body>
+</html>

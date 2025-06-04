@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Toggle Dark Mode</title>
+</head>
+<script>
+function toggleMode() {
+    let b = document.querySelector('body');
+    let btn = document.getElementById('toggleBtn');
+
+    if (b.style.backgroundColor === "black") {
+        b.style.backgroundColor = "white";
+        b.style.color = "black";
+        btn.textContent = "ACTIVATE DARK MODE";
+    } else {
+        b.style.backgroundColor = "black";
+        b.style.color = "orange";
+        btn.textContent = "ACTIVATE LIGHT MODE";
+    }
+}
+</script>
+<body>
+    <h1>Para</h1>
+    
+    <p id="p1">
+        The sun shines brightly in the clear blue sky, spreading warmth everywhere.
+        Birds chirp melodiously in the early morning, welcoming a brand-new day.
+        The gentle breeze carries the scent of fresh flowers, filling the air with sweetness.
+        White clouds float lazily across the vast sky, creating beautiful shapes.
+        Colorful flowers bloom gracefully in the garden, adding charm to the surroundings.
+        The ocean waves crash against the shore rhythmically, creating a soothing sound.
+    </p>
+
+    <button id="toggleBtn" onclick="toggleMode();">ACTIVATE DARK MODE</button>
+</body>
+</html>

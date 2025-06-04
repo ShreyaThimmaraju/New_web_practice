@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>EMAIL: </label>
+        <input type="text" id="email">
+        <br>
+        <label>PASSWORD: </label>
+        <input type="text" id="password">
+        <br>
+        <input type="submit">
+    </form>
+
+    <script>
+        document.querySelector('form').addEventListener('submit', (event) => {
+            event.preventDefault(); //prevents page refresh
+            console.log('Form submitted!');
+        });
+    </script>
+</body>
+</html>

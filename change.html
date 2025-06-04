@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+   <h1 id="mainHeading">Welcome!</h1> 
+   <button id="changeTextButton">Change Text</button>
+
+   <script>
+    const heading = document.getElementById('mainHeading');
+    const button = document.getElementById('changeTextButton');
+
+    button.addEventListener('click', () => {
+        heading.textContent = 'Hello, World!';
+    });
+    </script>
+</body>
+</html>
